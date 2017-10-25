@@ -4,7 +4,7 @@
 
 		<meta charset="utf-8">
 
-		<title>Home | Dillon Faulkner | Always Be Learning</title>
+		<title>Contact | Dillon Faulkner | Always Be Learning</title>
 		
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
@@ -26,11 +26,11 @@
 
 		<div id="menuOptions">
 
-			<p><a href="#">About</a></p>
+			<p><a href="index.html">About</a></p>
 				<h6>|</h6>		
 			<p><a href="portfolio.html">Portfolio</a></p>
 				<h6>|</h6>		
-			<p><a href="contact.html">Contact</a></p>
+			<p><a href="#">Contact</a></p>
     		
 		</div>
 		
@@ -40,17 +40,26 @@
 	
 	<div id="pageBody">
 
-	<section id="about">
+	<section id="contact">
 
-			<h2>About Me</h2>
+			<h2>Contact</h2>
 
 			<hr>
 
-			<img src="assets/images/mePic.png" alt="Dillon Faulkner Portfolio Picture" id="bioPic">
+			<form action="mailto:Dillon@csdesignstudios.com">
+			
+			<p>Name</p>
+			<input type="text" name="Name" placeholder="John Smith" required="true">
+			
+			<p>Email</p>
+			<input type="text" name="Email" placeholder="example@domain.com" required="true">
+			
+			<p>Message</p>
+			<textarea name="Message"></textarea>
 
-			<p>Hello! My name is Dillon, and this is my portfolio site. You know how you should never brag about yourself? Well that's what this site is for... I'd rather you just talk to some references though, and let them speak honestly about how amazing I am.</p>
-
-			<p>My primary passion is in learning new things. I'm very zealous in actively educating myself and others in topics of interest. I am always up for challenging tasks or projects regardless of past experience.</p>
+			<input id="submit" type="submit" value="Submit">
+			
+			</form>
 
 	</section>
 
