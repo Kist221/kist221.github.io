@@ -47,6 +47,7 @@ header {
     top: 0;
     margin: 0 auto;
     border-bottom: solid grey;
+    z-index: 999999999;
 }
 
 ul {
@@ -192,7 +193,7 @@ input {
 }
 
 .boxLabel {
-    width: 270px;
+    width: 100%;
     background: teal;
     color: white;
     text-align: center;
@@ -215,7 +216,7 @@ input {
 }
 
 .social {
-	width: 70px;
+	width: 29%;
 	float: left;
 	margin-right: 3px;
 	margin-top: 20px;
@@ -232,4 +233,166 @@ input {
     color: lightgrey;
     line-height: 61px;
     border-top: solid teal 7px;
+}
+
+@media (max-width:980px) {
+
+	.menuBar {
+    width: 90%;
+	}
+
+	#pageBody {
+    width: 90%;
+	}
+
+	#about, #contact {
+	width: 60%;
+	margin-right: 10px;
+	}
+
+	input {
+	width: 96%;
+	}
+
+	#contact textarea {
+    width: 96%;
+	}
+	
+	#bioPic {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+	}
+
+	.imageBox {
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+	.connect {
+	width: 35%;
+	float: right;
+	}
+	
+	.connect h3 {
+	font-size: 23px;
+	}
+
+	#about p {
+    margin: 10px;
+    margin-left: 34px;
+    margin-right: 34px;
+    float: left;
+	}
+}
+
+@media (max-width:768px) {
+
+	#menuOptions{
+	width: 250px;
+	}
+
+	#about, #contact {
+	width: 100%;
+    margin-bottom: 30px;
+	}
+	
+	#bioPic {
+	margin: 20px;
+	margin-left: 34px;
+	margin-bottom: 10px;
+	float: left;
+	}
+
+	#about p {
+    float: none;
+	}
+
+	.imageBox {
+	width: 39%;
+	}
+
+	.leftBox {
+	float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 34px;
+	}
+
+	.rightBox {
+	float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 34px;
+	}
+
+	.connect {
+	width: 100%;
+    margin-bottom: 95px;
+	}
+
+	.social {
+	width: 70px;
+	}
+}
+
+@media (max-width:640px) {
+
+	header {
+	position: relative;
+	}
+
+	.menuBar {
+	width: 100%;
+	}
+
+	#myName {
+	width: 100%;
+	}
+
+	#menuOptions {
+	width: 100%;
+	background: white;
+	height: 60px;
+	line-height: 60px;
+	}
+	
+	#pageBody {
+    margin-top: 90px;
+	}
+
+	.footer {
+	position: relative;
+	}
+
+	#bioPic {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+	}
+
+	#about p {
+    margin: 10px;
+    margin-left: 34px;
+    margin-right: 34px;
+    float: left;
+	}
+
+	.imageBox {
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 270px;
+	}
+
+	.connect {
+    margin-bottom: 30px;
+	}
 }
